@@ -334,6 +334,10 @@ template {
   display: none !important;
 }
 
+.menu {
+  background: wheat;
+}
+
 .menu ul {
   list-style-type: none;
   -ms-flex-direction: column;
@@ -348,6 +352,21 @@ template {
 
 img {
   width: 100%;
+}
+
+.inner {
+  width: 100%;
+}
+
+.titre {
+  background-color: burlywood;
+  font-family: Roboto;
+  font-size: 200%;
+  color: lawngreen;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 @media (min-width: 768px) {

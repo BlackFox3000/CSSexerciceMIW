@@ -1,5 +1,7 @@
 .menu{
+  background: wheat;
   ul{
+    &:hover=darksalmon;
     list-style-type:none;
     flex-direction:column;
     display: flex;
@@ -12,4 +14,20 @@
 img{
   width: 100%;
 }
-eee
+
+.inner{
+  width: 100%;
+}
+
+
+.titre{
+  background-color: burlywood;
+  font-family: Roboto;
+  font-size: 200%;
+  color: lawngreen;
+
+  display: flex;
+  justify-content: center;
+
+
+}
